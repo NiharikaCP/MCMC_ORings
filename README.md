@@ -33,7 +33,7 @@ Rather than using an existing sampling library, the posterior is fit with a from
   support on positive numbers, it distorts beta0's posterior toward positive values.
 
 - **`run3_normal_negexp.py`**. In the final run, `beta0`: step size 5, starting value 10, Normal(mean=15,
-  sd=10) prior. `beta1`: step size 0.1, starting value -0.05, an Exponential(rate=0.001) prior placed on `
+  sd=10) prior. `beta1`: step size 0.1, starting value -0.05, an Exponential(rate=-0.001) prior placed on `
   beta1`. This produces well-behaved histograms, from which modal estimates (`beta0 ≈ 14.8, beta1 ≈ -0.23`)
   are read off. Those estimates are then used to plot the fitted probability of O-ring failure against
   temperature, and specifically to compute the probability of failure at 36°F - the temperature Challenger
