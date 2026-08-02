@@ -39,7 +39,7 @@ Rather than using an existing sampling library, the posterior is fit with a from
   temperature, and specifically to compute the probability of failure at 36°F - the temperature Challenger
   launched at.
 
-## Results
+## Outputs
 
 - **`allones_unifs.png`**: the traces from the first run.
 - **`5_10_exp_0.1_-0.05_unif_traces.png`**: the traces from the second run.
