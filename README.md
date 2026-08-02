@@ -17,7 +17,7 @@ at a given temperature, which would allow us to compute the probability at 36F -
 Rather than using an existing sampling library, the posterior is fit with a from-scratch random-walk Metropolis-Hastings sampler : propose new (beta0, beta1) values from a normal random walk centered on the current values, then accept or reject them based on how much better (or worse) the proposal makes the log-posterior (log-likelihood + log-priors).
 
 
-## What's in each file
+## Files
 
 - **`methods.py`**: the 23-flight
   O-ring dataset, the logistic regression log-likelihood, four prior building blocks (uniform, exponential,      exponential-on-the-negative, normal), the Metropolis-Hastings sampler (`run_mcmc`), and two posterior
@@ -39,6 +39,14 @@ Rather than using an existing sampling library, the posterior is fit with a from
   temperature, and specifically to compute the probability of failure at 36°F - the temperature Challenger
   launched at.
 
+## Results Branch
+
+- **`allones_unifs.png`**: the traces from the first run.
+- **`5_10_exp_0.1_-0.05_unif_traces.png`**: the traces from the second run.
+- **`5_10_exp_0.1_-0.05_unif_hpds.png`**: the HPD and histogram plots from the second run.
+- **`5_10_normal_0.1_-0.05_exp_traces.png`**: the traces from the third run.
+- **`5_10_normal_0.1_-0.05_exp_hpds.png`**: the HPD and histogram plots from the third run.
+- **`failure_prob.ong`**: the plot of probability of failure versus temperature.
 
 ## Data source
 
