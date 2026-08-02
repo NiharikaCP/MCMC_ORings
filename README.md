@@ -46,7 +46,7 @@ Rather than using an existing sampling library, the posterior is fit with a from
 - **`5_10_exp_0.1_-0.05_unif_hpds.png`**: the HPD and histogram plots from the second run.
 - **`5_10_normal_0.1_-0.05_exp_traces.png`**: the traces from the third run.
 - **`5_10_normal_0.1_-0.05_exp_hpds.png`**: the HPD and histogram plots from the third run.
-- **`failure_prob.ong`**: the plot of probability of failure versus temperature.
+- **`failure_prob.png`**: the plot of probability of failure versus temperature.
 
 ## Data source
 
